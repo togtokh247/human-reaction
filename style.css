@@ -118,3 +118,69 @@ button {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
+@media (max-width: 768px) {
+  .main-menu {
+    width: 90%;
+    height: auto;
+    padding: 16px;
+  }
+
+  .container {
+    font-size: 16px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 0 20px;
+    height: 40px;
+  }
+
+  .Reaction-time-test {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .main-menu {
+    width: 100%;
+    border-radius: 14px;
+  }
+
+  .container {
+    font-size: 14px;
+    gap: 6px;
+  }
+
+  .box,
+  .box1 {
+    width: 14px;
+    height: 14px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 14px;
+    height: 38px;
+  }
+
+  .click-area {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .Reaction-time-test {
+    font-size: 26px;
+  }
+
+  .end-screen h1 {
+    font-size: 24px;
+  }
+}
